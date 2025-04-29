@@ -20,7 +20,7 @@ const Projects = () => {
       description: 'A full-stack MERN application for booking and managing doctor appointments with user authentication, appointment scheduling, and admin dashboard.',
       tags: ['MongoDB', 'Express', 'React', 'Node.js', 'Redux'],
       image: 'https://images.pexels.com/photos/7579831/pexels-photo-7579831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      demoLink: '#',
+      demoLink: 'https://busbookingapi-integrate-git-master-invincible-adis-projects.vercel.app',
       repoLink: 'https://github.com/invincible-adi/D_A_S.git',
       type: 'featured',
     },
