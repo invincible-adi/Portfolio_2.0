@@ -79,7 +79,7 @@
 
 .img {
   background-image: url('../src/assets/adidp.jpg');
-  background-size: contain;
+  background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
 }
