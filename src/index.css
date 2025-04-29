@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-gray-300 bg-[#0a192f];
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold text-white;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 md:px-6 lg:px-8;
+  }
+
+  .section-title {
+    @apply text-2xl md:text-3xl font-bold mb-6 relative inline-block text-white;
+    @apply after:content-[''] after:absolute after:w-1/2 after:h-1 after:bg-blue-500 after:left-0 after:bottom-0;
+  }
+
+  .section-subtitle {
+    @apply text-xl font-semibold mb-4 text-blue-400;
+  }
+
+  .btn {
+    @apply px-6 py-2 rounded-md font-medium transition duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+  }
+
+  .btn-outline {
+    @apply border-2 border-blue-500 text-blue-400 hover:bg-blue-600 hover:text-white;
+  }
+
+  .card {
+    @apply bg-[#112240] rounded-lg shadow-xl overflow-hidden transition-all duration-300 hover:shadow-2xl border border-[#233554] hover:border-blue-500;
+  }
+
+  .skill-bar {
+    @apply h-2.5 rounded-full bg-[#233554] overflow-hidden;
+  }
+
+  .skill-progress {
+    @apply h-full rounded-full bg-blue-500;
+  }
+
+  .glass-effect {
+    @apply backdrop-blur-lg bg-[#0a192f]/80;
+  }
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-500;
+}
+
+.gradient-border {
+  @apply border border-transparent bg-gradient-to-r from-blue-500 to-cyan-500 p-[1px];
+}
+
+.gradient-bg {
+  @apply bg-gradient-to-br from-[#0a192f] via-[#112240] to-[#0a192f];
+}
+
+.img {
+  background-image: url('../src/assets/adidp.jpg');
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
