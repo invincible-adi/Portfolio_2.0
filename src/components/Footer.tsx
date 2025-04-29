@@ -15,7 +15,7 @@ const Footer = () => {
 
           <div className="flex space-x-6 mb-6 md:mb-0">
             <a
-              href="https://github.com/"
+              href="https://github.com/invincible-adi"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-blue-400 transition-colors"
@@ -23,7 +23,7 @@ const Footer = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com/in/"
+              href="www.linkedin.com/in/aditya-kumar-gautam-a43459255"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-blue-400 transition-colors"

@@ -27,7 +27,7 @@ const Home = () => {
             </div>
             <div className="flex items-center justify-center md:justify-start mt-8 space-x-4">
               <a
-                href="https://github.com/"
+                href="https://github.com/invincible-adi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-blue-400 transition-colors"
@@ -35,7 +35,7 @@ const Home = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com/in/"
+                href="www.linkedin.com/in/aditya-kumar-gautam-a43459255"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-blue-400 transition-colors"
